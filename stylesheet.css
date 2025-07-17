@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Avenir Next";
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: left;
+}
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin: 0 0 0 30px;
+}
+.header-list {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 0 100px;
+}
+.header-list li {
+  margin-right: 3rem;
+}
+.header-list li:last-child {
+  margin-right: 0;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.images li {
+  margin-right: 3rem;
+}
+.images li:last-child {
+  margin-right: 0;
+}
+img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.intro {
+  margin-bottom: 90px;
+}
+.list {
+  display: flex;
+  width: 480px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+#about-list {
+  display: flex;
+  justify-content: left;
+}
+.list-index {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 0;
+  width: 100px;
+}
+.list-body {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  padding: 0;
+  flex: 1;
+}
+.works-list {
+  display: flex;
+  justify-content: left;
+}
+.footer {
+  background-color: #888888;
+  color: #f5f5f5;
+  font-size: 13px;
+  height: 120px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
